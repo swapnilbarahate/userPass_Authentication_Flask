@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 1% 5%;
+    padding: 2%;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.show {
+    display: block;
+    transition: 5s;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 300px;
+}
+
+.form-container input {
+    width: 85%;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.showPassword {
+    position: absolute;
+    margin-left: -25px;
+    padding-top: 12px;
+    /* background-color: red; */
+    cursor: pointer;
+}
+
+.bg-yellowgreen {
+    background-color: yellowgreen;
+}
+
+.bg-blue {
+    background-color: rgba(26, 26, 232, 0.463);
+}
+
+.color-white {
+    color: white;
+}
+.box-welcome{
+    margin: auto;
+    padding: 20px;
+    line-height: 35px;
+    /* border: 0px solid #888; */
+    max-width: 300px;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+
+.m-1 {
+    margin: 16px;
+}
+
+.m-2 {
+    margin: 32px;
+}
+
+.m-3 {
+    margin: 48px;
+}
+
+.btn {
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+}
+.btn-success {
+    background: linear-gradient(to bottom right, #28e516, #54d80d);
+    border: 0;
+    color: #FFFFFF;
+}
+.btn-primary {
+    background: linear-gradient(to bottom right, #0c89e9, #0d25d8);
+    border: 0;
+    color: #FFFFFF;
+}
+.btn-success:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(71, 239, 138, 0.5), .125rem .125rem 1rem hsla(70, 100%, 68%, 0.5);
+}
+.btn-success:not([disabled]):hover {
+    /* box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5); */
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(71, 239, 138, 0.5), .125rem .125rem 1rem hsla(70, 100%, 68%, 0.5);
+}
+
